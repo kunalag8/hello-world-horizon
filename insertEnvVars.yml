@@ -1,13 +1,13 @@
 ---
 - name: Set environment variables for  HelloWorldReader
-  hosts: 127.0.0.1                                                
-  connection: local
+  hosts: 127.0.0.1                  #target host for running playbook (local in this case)                        
+  connection: local                 #use local connection to target host
   tasks:
     - name: Insert hello world environment variable using ansible
       ansible.builtin.set_fact:    #built in feature used for representing system properties (fact variables); for environment variables, that's the link
         dest: /Users/Kunal.Agarwala/Documents/Horizon Hello World Challenge/helloworld.env
-        line: '{{item.key}}={{item.value}}'
-        create: yes
+        line: '{{item.key}}={{item.value}}' 
+        create: yes  # if the file doesn't exist, then make it
       with_dict:
        NAME: kunal
        MESSAGE: helloworld!
