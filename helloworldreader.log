@@ -1,0 +1,47 @@
+2023-02-27 23:20:15,562 - INFO - Starting HelloWorldReader
+2023-02-27 23:20:19,192 - DEBUG - Name entered: kunal
+2023-02-27 23:20:19,192 - INFO - Printing environment variables:
+2023-02-27 23:20:19,193 - INFO - Finished HelloWorldReader
+2023-02-27 23:20:52,717 - INFO - Starting HelloWorldReader
+2023-02-27 23:20:55,718 - DEBUG - Name entered: kunal
+2023-02-27 23:20:55,718 - INFO - Printing environment variables:
+2023-02-27 23:20:55,719 - INFO - Finished HelloWorldReader
+2023-02-27 23:22:04,595 - INFO - Starting HelloWorldReader
+2023-02-27 23:22:08,024 - DEBUG - Name entered: kunal
+2023-02-27 23:22:08,024 - INFO - Printing environment variables:
+2023-02-27 23:22:08,025 - INFO - Finished HelloWorldReader
+2023-02-27 23:22:29,380 - INFO - Starting HelloWorldReader
+2023-02-27 23:22:33,303 - DEBUG - Name entered: kunal
+2023-02-27 23:22:33,303 - INFO - Printing environment variables:
+2023-02-27 23:22:33,303 - INFO - Finished HelloWorldReader
+2023-02-27 23:23:50,332 - INFO - Starting HelloWorldReader
+2023-02-27 23:23:54,371 - INFO - Printing environment variables:
+2023-02-27 23:23:54,372 - INFO - Finished HelloWorldReader
+2023-02-27 23:24:09,265 - INFO - Starting HelloWorldReader
+2023-02-27 23:24:12,635 - DEBUG - Name entered: kunal2
+2023-02-27 23:24:12,635 - INFO - Printing environment variables:
+2023-02-27 23:24:12,636 - INFO - Finished HelloWorldReader
+2023-02-27 23:30:32,033 - INFO - Starting HelloWorldReader
+2023-02-27 23:30:35,336 - INFO - Printing environment variables:
+2023-02-27 23:30:35,337 - INFO - Finished HelloWorldReader
+2023-03-02 01:14:45,871 - INFO - Starting HelloWorldReader
+2023-03-02 01:14:45,872 - INFO - Printing environment variables:
+2023-03-02 01:14:45,872 - INFO - Finished HelloWorldReader
+2023-03-02 01:16:06,592 - INFO - Starting HelloWorldReader
+2023-03-02 01:16:06,592 - INFO - Printing environment variables:
+2023-03-02 01:16:06,592 - INFO - Finished HelloWorldReader
+2023-03-02 02:38:37,948 - INFO - Starting HelloWorldReader
+2023-03-02 02:38:37,948 - INFO - Printing environment variables:
+2023-03-02 02:38:37,948 - INFO - NAME: None
+2023-03-02 02:38:37,948 - INFO - MESSAGE: None
+2023-03-02 02:38:37,949 - INFO - Finished HelloWorldReader
+2023-03-02 02:51:09,072 - INFO - Starting HelloWorldReader
+2023-03-02 02:51:09,073 - INFO - Printing environment variables:
+2023-03-02 02:51:09,073 - INFO - NAME: None
+2023-03-02 02:51:09,073 - INFO - MESSAGE: None
+2023-03-02 02:51:09,073 - INFO - Finished HelloWorldReader
+2023-03-02 02:53:30,373 - INFO - Starting HelloWorldReader
+2023-03-02 02:53:30,373 - INFO - Printing environment variables:
+2023-03-02 02:53:30,373 - INFO - NAME: None
+2023-03-02 02:53:30,373 - INFO - MESSAGE: None
+2023-03-02 02:53:30,373 - INFO - Finished HelloWorldReader
