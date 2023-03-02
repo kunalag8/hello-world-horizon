@@ -1,6 +1,6 @@
 ---
 - name: Set environment variables for  HelloWorldReader
-  hosts: 127.0.0.1                                                 
+  hosts: 127.0.0.1                                                
   connection: local
   tasks:
     - name: Insert hello world environment variable using ansible
