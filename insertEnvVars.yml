@@ -6,7 +6,7 @@
     - name: Insert hello world environment variable using ansible
       ansible.builtin.set_fact:    #built in feature used for representing system properties (fact variables); for environment variables, that's the link
         dest: /Users/Kunal.Agarwala/Documents/Horizon Hello World Challenge/helloworld.env
-        line: '{{item.key}}={{item.value}}' 
+        line: '{{item.key}}={{item.value}}' #writes this line to the .env file
         create: yes  # if the file doesn't exist, then make it
       with_dict:
        NAME: kunal
