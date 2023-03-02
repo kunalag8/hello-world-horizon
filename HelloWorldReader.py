@@ -25,7 +25,7 @@ def HelloWorldReader():
     # Output all environment variables to the console - these are system set, not to be confused with the logging, that's what THE PROGRAM is doing in a particular moment - the logging is written to a local file
     logging.info('Printing environment variables:')
     for key, value in os.environ.items():
-        print(f"{key}: {value}")
+        print(f"{key}:{value}")
 
     #access the environment variables inserted by ansible from the yml file
     my_var = os.environ.get('NAME')

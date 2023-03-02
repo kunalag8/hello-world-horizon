@@ -45,3 +45,23 @@
 2023-03-02 02:53:30,373 - INFO - NAME: None
 2023-03-02 02:53:30,373 - INFO - MESSAGE: None
 2023-03-02 02:53:30,373 - INFO - Finished HelloWorldReader
+2023-03-02 03:27:37,036 - INFO - Starting HelloWorldReader
+2023-03-02 03:27:37,036 - INFO - Printing environment variables:
+2023-03-02 03:27:37,037 - INFO - NAME: None
+2023-03-02 03:27:37,037 - INFO - MESSAGE: None
+2023-03-02 03:27:37,037 - INFO - Finished HelloWorldReader
+2023-03-02 03:28:02,068 - INFO - Starting HelloWorldReader
+2023-03-02 03:28:02,068 - INFO - Printing environment variables:
+2023-03-02 03:28:02,069 - INFO - NAME: None
+2023-03-02 03:28:02,069 - INFO - MESSAGE: None
+2023-03-02 03:28:02,069 - INFO - Finished HelloWorldReader
+2023-03-02 03:28:54,715 - INFO - Starting HelloWorldReader
+2023-03-02 03:28:54,715 - INFO - Printing environment variables:
+2023-03-02 03:28:54,715 - INFO - NAME: None
+2023-03-02 03:28:54,715 - INFO - MESSAGE: None
+2023-03-02 03:28:54,715 - INFO - Finished HelloWorldReader
+2023-03-02 03:29:07,940 - INFO - Starting HelloWorldReader
+2023-03-02 03:29:07,940 - INFO - Printing environment variables:
+2023-03-02 03:29:07,941 - INFO - NAME:None
+2023-03-02 03:29:07,941 - INFO - MESSAGE:None
+2023-03-02 03:29:07,941 - INFO - Finished HelloWorldReader
