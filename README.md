@@ -1,2 +1,2 @@
-# hello-world-horizon
-Onboarding challenge Part 1
+# hello world challenge part 1 for horizon
+
