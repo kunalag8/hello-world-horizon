@@ -9,11 +9,6 @@
         path: /Users/Kunal.Agarwala/Documents/Horizon Hello World Challenge/helloworld.env
         regexp: '^TestMessage='
         line: "TestMessage=PleaseWork"
-
-
-        # block: 
-          # Add environment variables here
-          # - "TestMessage=Please work"
         
     - name: "Echo .env"
       ansible.builtin.debug:

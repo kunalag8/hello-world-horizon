@@ -2,6 +2,8 @@ import logging # import the logging module to handle logging messages
 import os  # import the os module to access environment variables
 from dotenv import load_dotenv #this allows me to load the environment variables from the env file
 
+load_dotenv() # load environment variables from file
+
 # Configure the logging settings
 # Set the log format and level, and create a log file named "helloworldreader.log" in append mode. Sets the format of the logs written to the log files
 logging.basicConfig(filename='helloworldreader.log', filemode='a', format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
@@ -27,10 +29,7 @@ def HelloWorldReader():
     for key, value in os.environ.items():
         print(f"{key}:{value}")
 
-    load_dotenv()
-
     #access the environment variable inserted by ansible from the yml file
-    #my_var = os.environ.get('TestMessage')
     my_var = os.getenv('TestMessage')
     logging.info(f"TestMessage: {my_var}")
     
