@@ -30,7 +30,8 @@ def HelloWorldReader():
     load_dotenv()
 
     #access the environment variable inserted by ansible from the yml file
-    my_var = os.environ.get('TestMessage')
+    #my_var = os.environ.get('TestMessage')
+    my_var = os.getenv('TestMessage')
     logging.info(f"TestMessage: {my_var}")
     
     # Log that the function has finished
@@ -40,6 +41,9 @@ def HelloWorldReader():
     print("Hello World!")
 
     #logging.info(os.environ['TestMessage'])
+
+    #for key, value in os.environ.items(): USED FOR TESTING
+     #   print(f"{key}:{value}")
 
     
 
