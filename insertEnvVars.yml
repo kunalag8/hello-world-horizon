@@ -13,3 +13,54 @@
     - name: "Echo .env"
       ansible.builtin.debug:
         msg: " {{ lookup('ansible.builtin.file', '/Users/Kunal.Agarwala/Documents/Horizon Hello World Challenge/helloworld.env') }}"
+
+
+#NOTABLE PREVIOUS ERRORS
+
+# > ansible-playbook insertEnvVars.yml     
+# [WARNING]: No inventory was parsed, only implicit localhost is available
+# [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+# ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+# JSON: Expecting value: line 1 column 1 (char 0)
+
+# Syntax Error while loading YAML.
+#   did not find expected key
+
+# The error appears to be in '/Users/Kunal.Agarwala/Documents/Horizon Hello World Challenge/insertEnvVars.yml': line 17, column 11, but may
+# be elsewhere in the file depending on the exact syntax problem.
+
+# The offending line appears to be:
+
+#         # block:
+#           - # Add environment variables here
+#           ^ here
+
+#  ~/Documents/Horizon Hello World Challenge  on main !3 ---------------------------------------------------------------------------------- at 20:57:09 
+# > ansible-playbook insertEnvVars.yml 
+# [WARNING]: No inventory was parsed, only implicit localhost is available
+# [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+# PLAY [Set environment variables for HelloWorldReader] *************************************************************************************************
+
+# TASK [Gathering Facts] ********************************************************************************************************************************
+# fatal: [127.0.0.1]: FAILED! => {"ansible_facts": {}, "changed": false, "failed_modules": {"ansible.legacy.setup": {"failed": true, "module_stderr": "sudo: a password is required\n", "module_stdout": "", "msg": "MODULE FAILURE\nSee stdout/stderr for the exact error", "rc": 1}}, "msg": "The following modules failed to execute: ansible.legacy.setup\n"}
+
+# PLAY RECAP ********************************************************************************************************************************************
+# 127.0.0.1                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+
+
+#  ~/Documents/Horizon Hello World Challenge  on main !3 --------------------------------------------------------------------------------------------- at 20:57:25 
+# > ansible-playbook insertEnvVars.yml 
+# [WARNING]: No inventory was parsed, only implicit localhost is available
+# [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+# PLAY [Set environment variables for HelloWorldReader] ************************************************************************************************************
+
+# TASK [Gathering Facts] *******************************************************************************************************************************************
+# ok: [127.0.0.1]
+
+# TASK [Insert hello world environment variable using ansible] *****************************************************************************************************
+# fatal: [127.0.0.1]: FAILED! => {"changed": false, "msg": "Unsupported parameters for (ansible.builtin.blockinfile) module: line, regexp. Supported parameters include: attributes, backup, block, create, group, insertafter, insertbefore, marker, marker_begin, marker_end, mode, owner, path, selevel, serole, setype, seuser, state, unsafe_writes, validate (attr, content, dest, destfile, name)."}
+
+# PLAY RECAP *******************************************************************************************************************************************************
+# 127.0.0.1                  : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   

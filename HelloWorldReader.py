@@ -24,14 +24,14 @@ def HelloWorldReader():
     # Log that the function has started
     logging.info('Starting HelloWorldReader')
     
-    # Output all environment variables to the console - these are system set, not to be confused with the logging, that's what THE PROGRAM is doing in a particular moment - the logging is written to a local file
+    #access the environment variable inserted by ansible from the yml file
+    my_var = os.environ.get('TestMessage')
+    logging.info(f"TestMessage: {my_var}")
+
+        # Output all environment variables to the console - these are system set, not to be confused with the logging, that's what THE PROGRAM is doing in a particular moment - the logging is written to a local file
     logging.info('Printing environment variables:')
     for key, value in os.environ.items():
         print(f"{key}:{value}")
-
-    #access the environment variable inserted by ansible from the yml file
-    my_var = os.getenv('TestMessage')
-    logging.info(f"TestMessage: {my_var}")
     
     # Log that the function has finished
     logging.info('Finished HelloWorldReader')
