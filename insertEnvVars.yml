@@ -2,18 +2,18 @@
 - name: Set environment variables for HelloWorldReader
   hosts: 127.0.0.1
   connection: local
-  become: yes
+  
   tasks:
     - name: Insert hello world environment variable using ansible
-      #ansible.builtin.lineinfile:
-      ansible.builtin.blockinfile:
-        
+      ansible.builtin.lineinfile:
         path: /Users/Kunal.Agarwala/Documents/Horizon Hello World Challenge/helloworld.env
-        #regexp: '^TestMessage='
-        #line: "TestMessage=Please work"
-         block: |
+        regexp: '^TestMessage='
+        line: "TestMessage=PleaseWork"
+
+
+        # block: 
           # Add environment variables here
-          TestMessage=Please work
+          # - "TestMessage=Please work"
         
     - name: "Echo .env"
       ansible.builtin.debug:
