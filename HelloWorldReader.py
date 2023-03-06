@@ -40,13 +40,6 @@ def HelloWorldReader():
     # Output "Hello World!" 
     print("Hello World!")
 
-    #logging.info(os.environ['TestMessage'])
-
-    #for key, value in os.environ.items(): USED FOR TESTING
-     #   print(f"{key}:{value}")
-
-    
-
 # Check if the code is being executed as the main program
 if __name__ == '__main__':
     # Call the main function
