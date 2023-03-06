@@ -1,4 +1,4 @@
-resource "local file" "Hello World!"{
-    content = file("/Users/Kunal.Agarwala/Documents/Horizon Hello World Challenge/HelloWorldReader.py") # has space, may cause issues on certain file systems
-    filename = HelloWorldReader.py
+resource "local_file" "hello_world"{
+    content = file("./HelloWorldReader.py") # has space, may cause issues on certain file systems
+    filename = "./helloworldreader.py"
 }

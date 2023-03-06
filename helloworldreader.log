@@ -65,3 +65,8 @@
 2023-03-02 03:29:07,941 - INFO - NAME:None
 2023-03-02 03:29:07,941 - INFO - MESSAGE:None
 2023-03-02 03:29:07,941 - INFO - Finished HelloWorldReader
+2023-03-03 14:19:31,100 - INFO - Starting HelloWorldReader
+2023-03-03 14:19:31,101 - INFO - Printing environment variables:
+2023-03-03 14:19:31,101 - INFO - NAME: None
+2023-03-03 14:19:31,101 - INFO - MESSAGE: None
+2023-03-03 14:19:31,101 - INFO - Finished HelloWorldReader

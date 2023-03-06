@@ -3,5 +3,7 @@ filebeat.inputs:  # Reads logs from file system
   paths:
   - /Users/Kunal.Agarwala/Documents/Horizon Hello World Challenge/helloworldreader.log
 
-  output.elasticsearch:  #writes to elasticsearch?
-   hosts: ["localhost:9200"]
+  #output.elasticsearch:  #writes to elasticsearch?
+   #hosts: ["localhost:9200"]
+  
+  output.console:
