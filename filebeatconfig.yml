@@ -7,3 +7,4 @@ filebeat.inputs:  # Reads logs from file system
    #hosts: ["localhost:9200"]
   
   output.console:
+    

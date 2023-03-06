@@ -1,7 +1,9 @@
+import os # import the os module to access environment variables
 import logging # import the logging module to handle logging messages 
-import os  # import the os module to access environment variables
 from dotenv import load_dotenv #this allows me to load the environment variables from the env file
 
+
+#dotenv_path = os.path.join(os.path.dirname(__file__),'.env')
 load_dotenv() # load environment variables from file
 
 # Configure the logging settings
@@ -21,14 +23,17 @@ logging.getLogger().addHandler(console_handler)
 
 # Define the main function
 def HelloWorldReader():
+
+    load_dotenv()
+
     # Log that the function has started
     logging.info('Starting HelloWorldReader')
     
     #access the environment variable inserted by ansible from the yml file
     my_var = os.environ.get('TestMessage')
     logging.info(f"TestMessage: {my_var}")
-
-        # Output all environment variables to the console - these are system set, not to be confused with the logging, that's what THE PROGRAM is doing in a particular moment - the logging is written to a local file
+  
+    # Output all environment variables to the console - these are system set, not to be confused with the logging, that's what THE PROGRAM is doing in a particular moment - the logging is written to a local file
     logging.info('Printing environment variables:')
     for key, value in os.environ.items():
         print(f"{key}:{value}")

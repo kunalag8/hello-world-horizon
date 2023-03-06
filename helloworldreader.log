@@ -224,3 +224,54 @@
 2023-03-06 21:33:37,416 - INFO - TestMessage: None
 2023-03-06 21:33:37,416 - INFO - Printing environment variables:
 2023-03-06 21:33:37,417 - INFO - Finished HelloWorldReader
+2023-03-06 21:43:57,612 - INFO - Starting HelloWorldReader
+2023-03-06 21:43:57,613 - INFO - TestMessage: None
+2023-03-06 21:43:57,613 - INFO - Printing environment variables:
+2023-03-06 21:43:57,613 - INFO - Finished HelloWorldReader
+2023-03-06 21:47:27,260 - INFO - Starting HelloWorldReader
+2023-03-06 21:47:27,260 - INFO - TestMessage: None
+2023-03-06 21:47:27,261 - INFO - Printing environment variables:
+2023-03-06 21:47:27,261 - INFO - Finished HelloWorldReader
+2023-03-06 21:47:56,245 - INFO - Starting HelloWorldReader
+2023-03-06 21:47:56,245 - INFO - TestMessage: None
+2023-03-06 21:47:56,245 - INFO - Printing environment variables:
+2023-03-06 21:47:56,246 - INFO - Finished HelloWorldReader
+2023-03-06 21:48:10,517 - INFO - Starting HelloWorldReader
+2023-03-06 21:48:10,517 - INFO - TestMessage: None
+2023-03-06 21:48:10,517 - INFO - Printing environment variables:
+2023-03-06 21:48:10,517 - INFO - Finished HelloWorldReader
+2023-03-06 21:48:26,766 - INFO - Starting HelloWorldReader
+2023-03-06 21:48:26,766 - INFO - TestMessage:None
+2023-03-06 21:48:26,766 - INFO - Printing environment variables:
+2023-03-06 21:48:26,766 - INFO - Finished HelloWorldReader
+2023-03-06 21:50:28,968 - INFO - Starting HelloWorldReader
+2023-03-06 21:50:28,968 - INFO - TestMessage:None
+2023-03-06 21:50:49,736 - INFO - Starting HelloWorldReader
+2023-03-06 21:50:49,736 - INFO - TestMessage:None
+2023-03-06 21:53:25,488 - INFO - Starting HelloWorldReader
+2023-03-06 21:53:25,488 - INFO - TestMessage:None
+2023-03-06 21:53:25,488 - INFO - Printing environment variables:
+2023-03-06 21:53:25,488 - INFO - Finished HelloWorldReader
+2023-03-06 21:53:43,997 - INFO - Starting HelloWorldReader
+2023-03-06 21:53:43,997 - INFO - Printing environment variables:
+2023-03-06 21:53:43,997 - INFO - Finished HelloWorldReader
+2023-03-06 21:54:03,752 - INFO - Starting HelloWorldReader
+2023-03-06 21:54:03,752 - INFO - Printing environment variables:
+2023-03-06 21:54:03,752 - INFO - Finished HelloWorldReader
+2023-03-06 21:54:36,695 - INFO - Starting HelloWorldReader
+2023-03-06 21:54:36,696 - INFO - TestMessage: None
+2023-03-06 21:54:36,696 - INFO - Printing environment variables:
+2023-03-06 21:54:36,697 - INFO - Finished HelloWorldReader
+2023-03-06 21:54:50,574 - INFO - Starting HelloWorldReader
+2023-03-06 21:54:50,574 - INFO - TestMessage: None
+2023-03-06 21:54:50,575 - INFO - Printing environment variables:
+2023-03-06 21:54:50,575 - INFO - Finished HelloWorldReader
+2023-03-06 21:55:05,077 - INFO - Starting HelloWorldReader
+2023-03-06 21:55:44,348 - INFO - TestMessage: None
+2023-03-06 21:55:44,349 - INFO - Printing environment variables:
+2023-03-06 21:55:44,351 - INFO - Finished HelloWorldReader
+2023-03-06 21:56:00,240 - INFO - Starting HelloWorldReader
+2023-03-06 21:56:13,536 - INFO - TestMessage: None
+2023-03-06 21:56:14,956 - INFO - Printing environment variables:
+2023-03-06 21:56:28,537 - INFO - Finished HelloWorldReader
+2023-03-06 21:57:27,199 - INFO - Starting HelloWorldReader
