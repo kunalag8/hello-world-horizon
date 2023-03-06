@@ -27,17 +27,21 @@ def HelloWorldReader():
     for key, value in os.environ.items():
         print(f"{key}:{value}")
 
-    #access the environment variables inserted by ansible from the yml file
-    my_var = os.environ.get('NAME')
-    my_var2 = os.environ.get('MESSAGE')
-    logging.info(f"NAME: {my_var}")
-    logging.info(f"MESSAGE: {my_var2}")
+    load_dotenv()
 
+    #access the environment variable inserted by ansible from the yml file
+    my_var = os.environ.get('TestMessage')
+    logging.info(f"TestMessage: {my_var}")
+    
     # Log that the function has finished
     logging.info('Finished HelloWorldReader')
 
     # Output "Hello World!" 
     print("Hello World!")
+
+    #logging.info(os.environ['TestMessage'])
+
+    
 
 # Check if the code is being executed as the main program
 if __name__ == '__main__':

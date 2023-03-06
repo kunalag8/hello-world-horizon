@@ -70,3 +70,74 @@
 2023-03-03 14:19:31,101 - INFO - NAME: None
 2023-03-03 14:19:31,101 - INFO - MESSAGE: None
 2023-03-03 14:19:31,101 - INFO - Finished HelloWorldReader
+2023-03-06 19:26:04,260 - INFO - Starting HelloWorldReader
+2023-03-06 19:26:04,260 - INFO - Printing environment variables:
+2023-03-06 19:26:04,260 - INFO - NAME: None
+2023-03-06 19:26:04,260 - INFO - MESSAGE: None
+2023-03-06 19:26:04,261 - INFO - Finished HelloWorldReader
+2023-03-06 19:57:29,288 - INFO - Starting HelloWorldReader
+2023-03-06 19:57:29,288 - INFO - Printing environment variables:
+2023-03-06 19:57:29,288 - INFO - Finished HelloWorldReader
+2023-03-06 20:01:27,776 - INFO - Starting HelloWorldReader
+2023-03-06 20:01:27,776 - INFO - Printing environment variables:
+2023-03-06 20:01:27,777 - INFO - TestMessage: None
+2023-03-06 20:01:27,777 - INFO - Finished HelloWorldReader
+2023-03-06 20:04:42,183 - INFO - Starting HelloWorldReader
+2023-03-06 20:04:42,183 - INFO - Printing environment variables:
+2023-03-06 20:04:42,183 - INFO - TestMessage: None
+2023-03-06 20:04:42,183 - INFO - Finished HelloWorldReader
+2023-03-06 20:05:32,558 - INFO - Starting HelloWorldReader
+2023-03-06 20:05:32,558 - INFO - Printing environment variables:
+2023-03-06 20:05:32,559 - INFO - TestMessage: None
+2023-03-06 20:05:32,559 - INFO - Finished HelloWorldReader
+2023-03-06 20:05:59,757 - INFO - Starting HelloWorldReader
+2023-03-06 20:05:59,757 - INFO - Printing environment variables:
+2023-03-06 20:05:59,757 - INFO - TestMessage: None
+2023-03-06 20:05:59,757 - INFO - Finished HelloWorldReader
+2023-03-06 20:06:15,513 - INFO - Starting HelloWorldReader
+2023-03-06 20:06:15,513 - INFO - Printing environment variables:
+2023-03-06 20:06:15,513 - INFO - TestMessage: None
+2023-03-06 20:06:15,513 - INFO - Finished HelloWorldReader
+2023-03-06 20:06:34,944 - INFO - Starting HelloWorldReader
+2023-03-06 20:06:34,944 - INFO - Printing environment variables:
+2023-03-06 20:06:34,944 - INFO - TestMessage: None
+2023-03-06 20:06:34,945 - INFO - Finished HelloWorldReader
+2023-03-06 20:07:35,982 - INFO - Starting HelloWorldReader
+2023-03-06 20:07:35,982 - INFO - Printing environment variables:
+2023-03-06 20:07:35,982 - INFO - TestMessage: None
+2023-03-06 20:07:35,982 - INFO - Finished HelloWorldReader
+2023-03-06 20:07:46,520 - INFO - Starting HelloWorldReader
+2023-03-06 20:07:46,520 - INFO - Printing environment variables:
+2023-03-06 20:07:46,520 - INFO - TestMessage: None
+2023-03-06 20:07:46,520 - INFO - Finished HelloWorldReader
+2023-03-06 20:08:19,934 - INFO - Starting HelloWorldReader
+2023-03-06 20:08:19,934 - INFO - Printing environment variables:
+2023-03-06 20:08:19,935 - INFO - TestMessage: None
+2023-03-06 20:08:19,935 - INFO - Finished HelloWorldReader
+2023-03-06 20:12:02,065 - INFO - Starting HelloWorldReader
+2023-03-06 20:12:02,065 - INFO - Printing environment variables:
+2023-03-06 20:12:02,065 - INFO - TestMessage: None
+2023-03-06 20:12:02,066 - INFO - Finished HelloWorldReader
+2023-03-06 20:14:52,857 - INFO - Starting HelloWorldReader
+2023-03-06 20:14:52,857 - INFO - Printing environment variables:
+2023-03-06 20:14:52,857 - INFO - TestMessage: None
+2023-03-06 20:14:52,857 - INFO - Finished HelloWorldReader
+2023-03-06 20:15:57,355 - INFO - Starting HelloWorldReader
+2023-03-06 20:15:57,355 - INFO - Printing environment variables:
+2023-03-06 20:15:57,355 - INFO - TestMessage: None
+2023-03-06 20:15:57,355 - INFO - Finished HelloWorldReader
+2023-03-06 20:18:26,367 - INFO - Starting HelloWorldReader
+2023-03-06 20:18:26,367 - INFO - Printing environment variables:
+2023-03-06 20:18:26,368 - INFO - TestMessage: None
+2023-03-06 20:18:26,368 - INFO - Finished HelloWorldReader
+2023-03-06 20:19:10,352 - INFO - Starting HelloWorldReader
+2023-03-06 20:19:10,352 - INFO - Printing environment variables:
+2023-03-06 20:19:10,352 - INFO - TestMessage: None
+2023-03-06 20:19:10,352 - INFO - Finished HelloWorldReader
+2023-03-06 20:19:44,831 - INFO - Starting HelloWorldReader
+2023-03-06 20:19:44,831 - INFO - Printing environment variables:
+2023-03-06 20:19:44,831 - INFO - Finished HelloWorldReader
+2023-03-06 20:21:46,511 - INFO - Starting HelloWorldReader
+2023-03-06 20:21:46,512 - INFO - Printing environment variables:
+2023-03-06 20:21:46,512 - INFO - TestMessage: None
+2023-03-06 20:21:46,512 - INFO - Finished HelloWorldReader
