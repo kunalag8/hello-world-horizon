@@ -1,0 +1,8 @@
+- pipeline.id: input
+  path.config: "/Users/Kunal.Agarwala/Documents/GitHub/HWC-PT2/Input/Filter/Output/input.conf"
+
+- pipeline.id: filter
+  path.config: "/Users/Kunal.Agarwala/Documents/GitHub/HWC-PT2/Input/Filter/Output/filter.conf"
+
+- pipeline.id: output
+  path.config: "/Users/Kunal.Agarwala/Documents/GitHub/HWC-PT2/Input/Filter/Output/output.conf"

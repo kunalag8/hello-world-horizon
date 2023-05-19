@@ -1,0 +1,3 @@
+2023-05-14 10:00:00 [INFO] This is an informational message. 
+2023-05-18 10:01:23 [ERROR] An error occurred while processing. 
+2023-05-18 10:02:45 [DEBUG] Debug information for troubleshooting.
