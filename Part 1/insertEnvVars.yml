@@ -6,13 +6,13 @@
   tasks:
     - name: Insert hello world environment variable using ansible
       ansible.builtin.lineinfile:
-        path: /Users/Kunal.Agarwala/Documents/Horizon Hello World Challenge/helloworld.env
+        path: /Users/Kunal.Agarwala/Documents/GitHub/hello-world-horizon/Part 1/.env
         regexp: '^TestMessage='
         line: "TestMessage=PleaseWork"
         
     - name: "Echo .env"
       ansible.builtin.debug:
-        msg: " {{ lookup('ansible.builtin.file', '/Users/Kunal.Agarwala/Documents/Horizon Hello World Challenge/helloworld.env') }}"
+        msg: " {{ lookup('ansible.builtin.file', '/Users/Kunal.Agarwala/Documents/GitHub/hello-world-horizon/Part 1/.env') }}"
 
 
 #NOTABLE PREVIOUS ERRORS
