@@ -1,0 +1,34 @@
+Commands run on VM
+
+sudo yum install java-1.8.0 -y #install java
+
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.7.1-x86_64.rpm
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.7.1-x86_64.rpm.sha512 #install elasticsearch
+sha512sum -c elasticsearch-8.7.1-x86_64.rpm.sha512
+sudo rpm --install elasticsearch-8.7.1-x86_64.rpm
+
+ sudo systemctl daemon-reload
+ sudo systemctl enable elasticsearch.service
+ sudo systemctl start elasticsearch
+
+sudo service elasticsearch status
+
+#installing logstash
+
+sudo rpm --import https://artifacts.elastic.co/GPG-KEY-elasticsearch
+sudo vi /etc/yum.repos.d/logstash.repo
+sudo yum update
+
+in /etc/yum.repos.d/logstash.repo:
+[logstash-8.x]
+name=Elastic repository for 8.x packages
+baseurl=https://artifacts.elastic.co/packages/8.x/yum
+gpgcheck=1
+gpgkey=https://artifacts.elastic.co/GPG-KEY-elasticsearch
+enabled=1
+autorefresh=1
+type=rpm-md
+
+sudo systemctl start logstash
+sudo systemctl enable logstash
+sudo systemctl status logstash
