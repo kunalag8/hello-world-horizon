@@ -1,20 +1,20 @@
-# module "ec2_instance" {
-#   source = "terraform-aws-modules/ec2-instance/aws"
+ module "ec2_instance" {
+   source = "terraform-aws-modules/ec2-instance/aws"
 
-#   name = "single-instance"
+   name = "single-instance"
 
-#   instance_type          = "t3.medium"
-#   key_name               = "HWC"
-#   monitoring             = true
-#   vpc_security_group_ids = ["sg-12345678"]
-#   ami                    = "ami-0889a44b331db0194"
+   instance_type          = "t3.medium"
+   key_name               = "HWC"
+   monitoring             = true
+   vpc_security_group_ids = ["sg-12345678"]
+   ami                    = "ami-0889a44b331db0194"
 #   subnet_id              = "subnet-04d80b40554a2f02c" #this will change as the cloud sandbox dies every 4 hours
 
-#   tags = {
-#     Terraform   = "true"
-#     Environment = "dev"
-#   }
-# }
+   tags = {
+     Terraform   = "true"
+     Environment = "dev"
+   }
+ }
 
 resource "null_resource" "logstash" {
   provisioner "local-exec" {
